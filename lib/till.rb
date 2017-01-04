@@ -1,3 +1,8 @@
+require_relative 'menu'
+require_relative 'order'
+require_relative 'payment'
+require_relative 'receipit'
+
 class Till
 
   include Menu
