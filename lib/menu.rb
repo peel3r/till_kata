@@ -1,6 +1,6 @@
 require 'json'
 
-class Menu
+module Menu
 
   attr_reader :price_list
 

@@ -1,7 +1,10 @@
+class MenuWrapper
+  include Menu
+end
+
 describe 'Menu' do
 
-  let(:menu){Menu.new}
-
+  let(:menu){MenuWrapper.new}
   before {menu.load_price_list}
 
   context 'Loading items' do
