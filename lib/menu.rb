@@ -10,5 +10,4 @@ class Menu
     @price_list = JSON.parse(file).first['prices'].first
 
   end
-
 end
